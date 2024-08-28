@@ -22,6 +22,12 @@ require 'axe-rspec'
 
 - Use with webdriver of choice.
 
+Alternatively, if you [give bundler a hint via `:require`](https://bundler.io/guides/gemfile.html) in your Gemfile, then you won't have to use `require 'axe-rspec'` directly anywhere.
+
+``` rb
+  gem 'axe-core-rspec', require: 'axe-rspec'
+```
+
 ## Matcher
 
 ### BeAxeClean
